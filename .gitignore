@@ -6,3 +6,4 @@ tutorials/eda_on_big_csv/*.hdf5
 tutorials/.ipynb_checkpoints
 tutorials/eda_on_big_csv/.ipynb_checkpoints/*
 tutorials/.ipynb_checkpoints/Readme-checkpoint.md
+tutorials/eda_on_big_csv/dask-worker-space/
