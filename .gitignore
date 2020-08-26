@@ -2,6 +2,6 @@
 tutorials/eda_on_big_csv/*.ZIP
 tutorials/eda_on_big_csv/*.csv
 tutorials/eda_on_big_csv/*.txt
-tutorials/.ipynb_checkpoints/*
+tutorials/.ipynb_checkpoints
 tutorials/eda_on_big_csv/.ipynb_checkpoints/*
 tutorials/.ipynb_checkpoints/Readme-checkpoint.md
