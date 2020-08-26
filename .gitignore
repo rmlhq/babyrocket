@@ -7,3 +7,5 @@ tutorials/.ipynb_checkpoints
 tutorials/eda_on_big_csv/.ipynb_checkpoints/*
 tutorials/.ipynb_checkpoints/Readme-checkpoint.md
 tutorials/eda_on_big_csv/dask-worker-space/
+tutorials/eda_on_big_csv/eda_out_of_core_vaex_copy.ipynb
+tutorials/eda_on_big_csv/slurm-2.out
