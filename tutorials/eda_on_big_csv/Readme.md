@@ -1,4 +1,4 @@
-## What you will learn?
+## What will you learn?
 
 - When to use out-of-core computing vs. distributed computing solutions?
 - Evaluating system requirements - memory, disk space, and cores
