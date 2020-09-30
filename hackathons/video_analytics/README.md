@@ -7,7 +7,7 @@
 3. tensorflow-hub==0.9.0
 4. matplotlib==3.1.3
 5. youtube-dl==2020.9.20
-6. Access to babyrocket (optional)
+6. Access to BabyRocket (optional)
 
 ### Getting Started
 
@@ -19,12 +19,14 @@
 3. Extract objects and meta data from video and build applications using tensorflow, tensorflow-hub, and streamlit 
 
 #### On BabyRocket
-1. Go to projects page and create a project
-2. From project details page open Jupyterlab
-3. Open a terminal and clone [hackathon tutorials](https://github.com/rmlhq/babyrocket) and [streamlit self-driving demo](https://github.com/streamlit/demo-self-driving) git repositories
-4. Install all required python libraries 
+1. Email us [here](mailto:info@rocketml.net) to get access to BabyRocket.
+2. Login to BabyRocket
+3. Go to projects page and create a project
+4. From project details page open Jupyterlab
+5. Open a terminal and clone [hackathon tutorials](https://github.com/rmlhq/babyrocket) and [streamlit self-driving demo](https://github.com/streamlit/demo-self-driving) git repositories
+6. Install all required python libraries 
    ` sudo /opt/conda/bin/pip install --upgrade tensorflow tensorflow-hub youtube-dl matplotlib`
-5. (Optional) Scale up the master node to B8ms with 8 cores and 32GB memory
+7. (Optional) Scale up the master node to B8ms with 8 cores and 32GB memory
 
 
 ### Tutorials
