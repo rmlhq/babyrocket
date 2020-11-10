@@ -9,3 +9,11 @@ tutorials/.ipynb_checkpoints/Readme-checkpoint.md
 tutorials/eda_on_big_csv/dask-worker-space/
 tutorials/eda_on_big_csv/eda_out_of_core_vaex_copy.ipynb
 tutorials/eda_on_big_csv/slurm-2.out
+hackathons/video_analytics/.ipynb_checkpoints/*
+hackathons/video_analytics/__pycache__
+hackathons/video_analytics/yolo*
+hackathons/video_analytics/*.mp4
+hackathons/video_analytics/*.jpg
+hackathons/video_analytics/distributed_od.py
+
+
