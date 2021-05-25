@@ -16,6 +16,9 @@
 - UI application using Streamlit
    - Learn how to use streamlit to build a UI to search and query object detection results
 
+## Video Analytics
+
+
 ### Pre-requisites
 
 1. Python >=3.7
