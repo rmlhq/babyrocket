@@ -43,17 +43,17 @@ images_per_process = int(total_images/size)
 # Get first and last images for the given process
 start_image = rank*images_per_process
 
-tracking_uri = os.environ.get("TRACKING_URL")
-client = MlflowClient(tracking_uri=tracking_uri)
-mlflow.set_tracking_uri(tracking_uri)
-experiments = client.list_experiments()
-experiment_names = []
-for exp in experiments:
-    experiment_names.append(exp.name)
-experiment_name = exp_name
-if experiment_name not in experiment_names:
-    mlflow.create_experiment(experiment_name)
-mlflow.set_experiment(experiment_name)
+# tracking_uri = os.environ.get("TRACKING_URL")
+# client = MlflowClient(tracking_uri=tracking_uri)
+# mlflow.set_tracking_uri(tracking_uri)
+# experiments = client.list_experiments()
+# experiment_names = []
+# for exp in experiments:
+#     experiment_names.append(exp.name)
+# experiment_name = exp_name
+# if experiment_name not in experiment_names:
+#     mlflow.create_experiment(experiment_name)
+# mlflow.set_experiment(experiment_name)
 
 mlflow_params  = {}
 mlflow_metrics = {}
@@ -97,11 +97,11 @@ for _id,_url in enumerate(tqdm(image_urls[start_image:end_image],desc="Rank %d"%
       result["detection_class_entities"], result["detection_scores"])
     filename = save_to_file(image_with_boxes)
     
-    try:
-      with mlflow.start_run():
-        mlflow.log_params(mlflow_params)
-        mlflow.log_metrics(mlflow_metrics)
-        mlflow.log_artifact(filename)
-    except:
-      print("Retrying to enter data into the database")
+    # try:
+    #   with mlflow.start_run():
+    #     mlflow.log_params(mlflow_params)
+    #     mlflow.log_metrics(mlflow_metrics)
+    #     mlflow.log_artifact(filename)
+    # except:
+    #   print("Retrying to enter data into the database")
 #print("Rank %d, Average object detection time = %0.3f"%(rank,total_runtime/(end_image-start_image)))

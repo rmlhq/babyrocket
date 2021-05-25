@@ -14,6 +14,6 @@ hackathons/video_analytics/__pycache__
 hackathons/video_analytics/yolo*
 hackathons/video_analytics/*.mp4
 hackathons/video_analytics/*.jpg
-hackathons/video_analytics/distributed_od.py
+
 
 
